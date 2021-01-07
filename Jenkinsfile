@@ -11,7 +11,7 @@ pipeline {
 
             steps {
                 def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
-               sh 'mvn package'
+                sh "${mvnHome}/bin/mvn package"
             }
         }
         stage ('Testing Stage') {
