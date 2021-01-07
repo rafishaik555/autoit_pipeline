@@ -5,7 +5,7 @@ node {
             
             
         }
-        stage ('Compile Stage') {
+        stage ('Clean Stage') {
 		    	
 
 	
@@ -15,17 +15,21 @@ node {
       
 					
         }
-        stage ('Testing Stage') {
+        stage ('Compile Stage') {
 
            
-               echo 'test MVN'
-		    //sh 'mvn test'
+               echo 'Compile MVN'
+		     def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
+				      bat "${mvnHome}/bin/mvn compile"
+				      
            
         }
         stage ('Install Stage') {
            
- 		echo 'install MVN'
-	   
+ 		echo 'test MVN'
+	   	def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
+				      bat "${mvnHome}/bin/mvn test"
+			
         }
     
 }
