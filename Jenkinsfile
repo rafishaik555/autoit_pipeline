@@ -1,27 +1,24 @@
 pipeline {
     agent any
     stages {
+        stage ('SCM Checkout'){
+            git 'https://github.com/rafishaik555/autoit_pipeline'
+        }
         stage ('Compile Stage') {
 
             steps {
-                withMaven(maven : 'apache-maven-3.6.2') {
-                    bat 'mvn clean compile'
-                }
+               sh 'mvn package'
             }
         }
         stage ('Testing Stage') {
 
             steps {
-                withMaven(maven : 'apache-maven-3.6.2') {
-                    bat 'mvn test'
-                }
+               sh 'mvn test'
             }
         }
         stage ('Install Stage') {
             steps {
-                withMaven(maven : 'apache-maven-3.6.2') {
-                    bat 'mvn install'
-                }
+                sh 'mvn install'
             }
         }
     }
