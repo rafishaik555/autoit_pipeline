@@ -1,7 +1,7 @@
 pipeline {
     agent any
 	  tools {
-    maven 'MAVEN_HOME'
+    	tool name: 'MAVEN_HOME', type: 'maven'
   }
 
     stages {
@@ -13,7 +13,7 @@ pipeline {
         }
         stage ('Compile Stage') {
 			      steps {
-       			 //sh 'mvn clean compile'
+       			 sh 'mvn clean compile'
 				      echo 'clean MVN'
       }
 	
