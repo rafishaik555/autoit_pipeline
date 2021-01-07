@@ -11,9 +11,10 @@ pipeline {
             
         }
         stage ('Compile Stage') {
-		    	def mvnHome = name: 'MAVEN_HOME', type: 'maven'
+		    	
 
 			      steps {
+				      def mvnHome = name: 'MAVEN_HOME', type: 'maven'
 				      sh "${mvnHome}/bin/mvn clean"
 				      echo 'clean MVN'
       }
