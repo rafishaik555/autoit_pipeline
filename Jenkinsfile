@@ -2,7 +2,10 @@ pipeline {
     agent any
     stages {
         stage ('SCM Checkout'){
-            git 'https://github.com/rafishaik555/autoit_pipeline'
+            steps {
+                git 'https://github.com/rafishaik555/autoit_pipeline'
+            }
+            
         }
         stage ('Compile Stage') {
 
