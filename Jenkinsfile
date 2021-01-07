@@ -31,5 +31,12 @@ node {
 				      bat "${mvnHome}/bin/mvn test"
 			
         }
+	
+	stage ('Reporting Stage') {
+           
+ 		echo 'Extent Reports'
+	   	publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'Reports', reportFiles: '*.html', reportName: 'Extent Report', reportTitles: 'Extent Report'])
+			
+        }
     
 }
