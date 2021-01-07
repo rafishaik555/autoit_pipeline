@@ -13,7 +13,8 @@ pipeline {
         }
         stage ('Compile Stage') {
 			      steps {
-       			 sh 'mvn clean compile'
+       			 //sh 'mvn clean compile'
+				      echo 'clean MVN'
       }
 	
 					
@@ -22,7 +23,7 @@ pipeline {
 
             steps {
                echo 'test MVN'
-		    sh 'mvn test'
+		    //sh 'mvn test'
             }
         }
         stage ('Install Stage') {
