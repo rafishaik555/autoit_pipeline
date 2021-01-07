@@ -1,0 +1,6 @@
+INFO    2020-08-28 00:52:45,584 [main] com.ups.poc1.testcases.BaseTest  - Config properties file loaded
+INFO    2020-08-28 00:52:48,455 [TestNG-PoolService-1] com.ups.poc1.testcases.BaseTest  - Inside Login Test
+INFO    2020-08-28 00:52:48,464 [TestNG-PoolService-0] com.ups.poc1.testcases.BaseTest  - Inside Login Test
+INFO    2020-08-28 00:52:48,517 [TestNG-PoolService-0] com.ups.poc1.testcases.BaseTest  - Inside Login Test
+INFO    2020-08-28 00:53:47,376 [TestNG-PoolService-0] com.ups.poc1.testcases.BaseTest  - Driver Initialized !!!
+INFO    2020-08-28 00:53:47,391 [TestNG-PoolService-0] com.ups.poc1.testcases.BaseTest  - Driver Initialized !!!

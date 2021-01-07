@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+
+	<listeners>
+
+		<listener
+			class-name="com.orangehrm.demo.extentListeners.ExtentListeners"></listener>
+
+	</listeners>
+
+	<test name="Test1">
+		<classes>
+			<class name="com.orangehrm.demo.testcases.LoginTestAdmin" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Test2">
+		<classes>
+			<class name="com.orangehrm.demo.testcases.LoginTestESS" />
+		</classes>
+	</test> <!-- Test -->
+
+<test name="Test3">
+		<classes>
+			<class name="com.orangehrm.demo.testcases.LoginTestSupervisor" />
+		</classes>
+	</test> <!-- Test -->
+<test name="Test4">
+		<classes>
+			<class name="com.orangehrm.demo.testcases.LoginTestSysAdmin" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

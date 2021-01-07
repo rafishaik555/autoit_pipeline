@@ -1,0 +1,4 @@
+# Created at 2020-11-24T00:20:25.631
+Boot Manifest-JAR contains absolute paths in classpath 'E:\frameworks\FRM_NEW\WKSPACE\POCJCT\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

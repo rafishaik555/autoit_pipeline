@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.orangehrm.demo.testcases.TestSample">
+        <methods>
+          <include name="TC001_TD001" invocation-numbers="6 2 4 3 8 0 7 9 5 1 11 15 13 12 10 14"/>
+          <include name="beforeClass"/>
+          <include name="initSetup"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="TC001_TD001_BeforeMethod"/>
+        </methods>
+      </class> <!-- com.orangehrm.demo.testcases.TestSample -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

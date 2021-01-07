@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="203.234" tests="4" errors="0" skipped="1" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="E:\frameworks\FRM_NEW\WKSPACE\POCJCT//src//test//resources//executables//chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\frameworks\FRM_NEW\WKSPACE\POCJCT\target\test-classes;E:\frameworks\FRM_NEW\WKSPACE\POCJCT\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hp\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\hp\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\hp\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\hp\.m2\repository\org\json\json\20160212\json-20160212.jar;C:\Users\hp\.m2\repository\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar;C:\Users\hp\.m2\repository\org\apache\activemq\activemq-client\5.13.0\activemq-client-5.13.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\hp\.m2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;C:\Users\hp\.m2\repository\org\fusesource\hawtbuf\hawtbuf\1.11\hawtbuf-1.11.jar;C:\Users\hp\.m2\repository\org\apache\geronimo\specs\geronimo-j2ee-management_1.1_spec\1.0.1\geronimo-j2ee-management_1.1_spec-1.0.1.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hp\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\hp\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hp\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\hp\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\hp\.m2\repository\mysql\mysql-connector-java\6.0.5\mysql-connector-java-6.0.5.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar;C:\Users\hp\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\hp\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\hp\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar;C:\Users\hp\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;C:\Users\hp\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hp\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\hp\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hp\.m2\repository\jaxen\jaxen\1.1.6\jaxen-1.1.6.jar;C:\Users\hp\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;C:\Users\hp\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar;C:\Users\hp\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;C:\Users\hp\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\hp\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\hp\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\hp\.m2\repository\org\jdom\jdom2\2.0.6\jdom2-2.0.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire6225498395966367614\surefirebooter1172260658062093724.jar C:\Users\hp\AppData\Local\Temp\surefire6225498395966367614 2020-11-24T00-20-23_209-jvmRun1 surefire2870173829329347902tmp surefire_02137446062950070241tmp"/>
+    <property name="surefire.test.class.path" value="E:\frameworks\FRM_NEW\WKSPACE\POCJCT\target\test-classes;E:\frameworks\FRM_NEW\WKSPACE\POCJCT\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hp\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\hp\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\hp\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\hp\.m2\repository\org\json\json\20160212\json-20160212.jar;C:\Users\hp\.m2\repository\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar;C:\Users\hp\.m2\repository\org\apache\activemq\activemq-client\5.13.0\activemq-client-5.13.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\hp\.m2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;C:\Users\hp\.m2\repository\org\fusesource\hawtbuf\hawtbuf\1.11\hawtbuf-1.11.jar;C:\Users\hp\.m2\repository\org\apache\geronimo\specs\geronimo-j2ee-management_1.1_spec\1.0.1\geronimo-j2ee-management_1.1_spec-1.0.1.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hp\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\hp\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hp\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\hp\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\hp\.m2\repository\mysql\mysql-connector-java\6.0.5\mysql-connector-java-6.0.5.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar;C:\Users\hp\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\hp\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\hp\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar;C:\Users\hp\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;C:\Users\hp\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hp\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\hp\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hp\.m2\repository\jaxen\jaxen\1.1.6\jaxen-1.1.6.jar;C:\Users\hp\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;C:\Users\hp\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar;C:\Users\hp\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;C:\Users\hp\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\hp\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\hp\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\hp\.m2\repository\org\jdom\jdom2\2.0.6\jdom2-2.0.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\hp"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_261\jre"/>
+    <property name="basedir" value="E:\frameworks\FRM_NEW\WKSPACE\POCJCT"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire6225498395966367614\surefirebooter1172260658062093724.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="user.name" value="hp"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\hp\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="user.dir" value="E:\frameworks\FRM_NEW\WKSPACE\POCJCT"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\app\hp\product\18.0.0\dbhomeXE\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_261\bin;C:\Program Files\Java\jdk1.8.0_261\lib;E:\SonarQube\sonar-scanner-cli-4.2.0.1873-windows\sonar-scanner-4.2.0.1873-windows\bin;C:\apache_maven\apache-maven-3.6.2-bin\apache-maven-3.6.2\bin;C:\apache_maven\apache-maven-3.6.2-bin\apache-maven-3.6.2\lib;C:\Program Files (x86)\LeanPro\CukeTest\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_261;C:\Android;C:\Windows\System32;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testLoginAdmin[chrome, admin, admin123, Mahmid Hossain](1)" classname="com.orangehrm.demo.testcases.login.LoginAdminTest" time="100.704">
+    <failure message="Timed out after 60 seconds. Unable to locate the element" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 60 seconds. Unable to locate the element
+	at com.orangehrm.demo.testcases.login.LoginAdminTest.testLoginAdmin(LoginAdminTest.java:109)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='account-name'][contains(text(),'Jacqueline White')]"}
+  (Session info: chrome=86.0.4240.198)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17758 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-LMKUR01', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.198, webStorageEnabled: true}
+Session ID: 683a0f14434905559508311239f056af
+*** Element info: {Using=xpath, value=//span[@id='account-name'][contains(text(),'Jacqueline White')]}
+	at com.orangehrm.demo.testcases.login.LoginAdminTest.testLoginAdmin(LoginAdminTest.java:109)
+]]></failure>
+    <system-out><![CDATA[[TestNG] [WARN] Ignoring duplicate listener : com.orangehrm.demo.extentListeners.ExtentListeners
+2020-11-24 00:20:28,307  INFO com.orangehrm.demo.testcases.BaseTest:114 - Config properties file loaded
+Test Case Name VALUE ...........LoginAdminTest
+inside valid login test case .... credentials
+browser type ...............chrome
+username..............admin
+password........admin123
+expected result............Mahmid Hossain
+WITH OUT SELENIUM GRID....................
+Launching : chrome
+2020-11-24 00:20:34,081  INFO com.orangehrm.demo.testcases.BaseTest:215 - Driver Initialized !!!
+Page Opened
+inside go to login
+user name in valid user .........admin
+password in valid user .........admin123
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 11378
+Only local connections are allowed.
+Nov 24, 2020 12:20:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginAdmin[chrome, invalidadmin, qwerty, Jacqueline White](2)" classname="com.orangehrm.demo.testcases.login.LoginAdminTest" time="96.979">
+    <failure message="Timed out after 60 seconds. Unable to locate the element" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 60 seconds. Unable to locate the element
+	at com.orangehrm.demo.testcases.login.LoginAdminTest.testLoginAdmin(LoginAdminTest.java:109)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='account-name'][contains(text(),'Jacqueline White')]"}
+  (Session info: chrome=86.0.4240.198)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17758 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-LMKUR01', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.198, webStorageEnabled: true}
+Session ID: 36b9f93977148125cba4d7f94fe32eef
+*** Element info: {Using=xpath, value=//span[@id='account-name'][contains(text(),'Jacqueline White')]}
+	at com.orangehrm.demo.testcases.login.LoginAdminTest.testLoginAdmin(LoginAdminTest.java:109)
+]]></failure>
+    <system-out><![CDATA[LoginAdminTest : Reporting test data set line 1 as PASS In excel.
+inside valid login test case .... credentials
+browser type ...............chrome
+username..............invalidadmin
+password........qwerty
+expected result............Jacqueline White
+WITH OUT SELENIUM GRID....................
+Launching : chrome
+2020-11-24 00:22:12,017  INFO com.orangehrm.demo.testcases.BaseTest:215 - Driver Initialized !!!
+Page Opened
+inside go to login
+user name in valid user .........invalidadmin
+password in valid user .........qwerty
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 9214
+Only local connections are allowed.
+Nov 24, 2020 12:22:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginAdmin[chrome, rafi, shireen, Jacqueline White](3)" classname="com.orangehrm.demo.testcases.login.LoginAdminTest" time="0">
+    <skipped message="DataToRun for row number 2 Is No Or Blank. So Skipping Its Execution."/>
+    <system-out><![CDATA[LoginAdminTest : Reporting test data set line 2 as PASS In excel.
+inside valid login test case .... credentials
+browser type ...............chrome
+username..............rafi
+password........shireen
+expected result............Jacqueline White
+]]></system-out>
+  </testcase>
+  <testcase name="f" classname="com.orangehrm.demo.testcases.registeruser.CompleteRegister" time="0.001">
+    <system-out><![CDATA[LoginAdminTest : Reporting test data set line 3 as SKIP In excel.
+LoginAdminTest : Reporting test case as PASS In excel.
+2020-11-24 00:23:46,747 DEBUG freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-11-24 00:23:46,756 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2020-11-24 00:23:46,774 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2020-11-24 00:23:46,775 DEBUG freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2020-11-24 00:23:47,223 DEBUG freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-11-24 00:23:47,225 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2020-11-24 00:23:47,225 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2020-11-24 00:23:47,226 DEBUG freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2020-11-24 00:23:47,234 DEBUG freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-11-24 00:23:47,235 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2020-11-24 00:23:47,236 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2020-11-24 00:23:47,236 DEBUG freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2020-11-24 00:23:47,289 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-11-24 00:23:47,291 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2020-11-24 00:23:47,292 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2020-11-24 00:23:47,292 DEBUG freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2020-11-24 00:23:47,335 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-11-24 00:23:47,336 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2020-11-24 00:23:47,336 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2020-11-24 00:23:47,336 DEBUG freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2020-11-24 00:23:47,362 DEBUG freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-11-24 00:23:47,368 DEBUG freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-11-24 00:23:47,369 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-11-24 00:23:47,370 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2020-11-24 00:23:47,371 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2020-11-24 00:23:47,371 DEBUG freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2020-11-24 00:23:47,381 DEBUG freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-11-24 00:23:47,382 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2020-11-24 00:23:47,382 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2020-11-24 00:23:47,383 DEBUG freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2020-11-24 00:23:47,388 DEBUG freemarker.cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-11-24 00:23:47,389 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2020-11-24 00:23:47,390 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2020-11-24 00:23:47,391 DEBUG freemarker.cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2020-11-24 00:23:47,457 DEBUG freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-11-24 00:23:47,458 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2020-11-24 00:23:47,459 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2020-11-24 00:23:47,460 DEBUG freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2020-11-24 00:23:47,475 DEBUG freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-11-24 00:23:47,486 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2020-11-24 00:23:47,489 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2020-11-24 00:23:47,490 DEBUG freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2020-11-24 00:23:47,563 DEBUG freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-11-24 00:23:47,565 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2020-11-24 00:23:47,566 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2020-11-24 00:23:47,566 DEBUG freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2020-11-24 00:23:47,618  INFO com.orangehrm.demo.testcases.BaseTest:114 - Config properties file loaded
+]]></system-out>
+  </testcase>
+</testsuite>

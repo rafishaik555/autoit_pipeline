@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [LoginSuite]">
+  <listeners>
+    <listener class-name="com.orangehrm.demo.extentListeners.ExtentListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="LoginAdminTest(failed)">
+    <classes>
+      <class name="com.orangehrm.demo.testcases.login.LoginAdminTest">
+        <methods>
+          <include name="reporterDataResults"/>
+          <include name="afterSuite"/>
+          <include name="launch_browser"/>
+          <include name="checkSuiteToRun"/>
+          <include name="setUpFramework"/>
+          <include name="checkCaseToRun"/>
+          <include name="closeBrowser"/>
+          <include name="testLoginAdmin" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.orangehrm.demo.testcases.login.LoginAdminTest -->
+    </classes>
+  </test> <!-- LoginAdminTest(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->

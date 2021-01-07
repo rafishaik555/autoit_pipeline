@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegisterUserSuite">
+<listeners>
+
+		<listener
+			class-name="com.orangehrm.demo.extentListeners.ExtentListeners"></listener>
+
+	</listeners>
+
+<test name="CompleteRegister">
+	 <classes>
+        <class name="com.orangehrm.demo.testcases.registeruser.CompleteRegister" />  
+    </classes>
+</test>
+</suite>
