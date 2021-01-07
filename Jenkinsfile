@@ -1,5 +1,9 @@
 pipeline {
     agent any
+	  tools {
+    maven 'MAVEN_HOME'
+  }
+
     stages {
         stage ('SCM Checkout'){
             steps {
@@ -8,22 +12,22 @@ pipeline {
             
         }
         stage ('Compile Stage') {
-				
-					def mvn_version = 'MAVEN_HOME'
-				withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
-  				sh "mvn clean package"
-					}
+			      steps {
+       			 sh 'mvn -B -DskipTests clean package'
+      }
+	
+					
         }
         stage ('Testing Stage') {
 
             steps {
-               sh "${mvnHome}/bin/mvn test"
+               echo 'test MVN'
             }
         }
         stage ('Install Stage') {
             steps {
-                sh "${mvnHome}/bin/mvn install"
-            }
+ 		echo 'install MVN'
+	    }
         }
     }
 }
