@@ -14,7 +14,7 @@ pipeline {
 		    	
 
 			      steps {
-				      def mvnHome = name: 'MAVEN_HOME', type: 'maven'
+				      def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
 				      sh "${mvnHome}/bin/mvn clean"
 				      echo 'clean MVN'
       }
