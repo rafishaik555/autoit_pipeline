@@ -8,13 +8,11 @@ pipeline {
             
         }
         stage ('Compile Stage') {
-				steps {
+				
 					def mvn_version = 'MAVEN_HOME'
 				withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
   				sh "mvn clean package"
 					}
-
-				}
         }
         stage ('Testing Stage') {
 
