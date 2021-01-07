@@ -1,27 +1,22 @@
 pipeline {
     agent any
+    tools { 
+        maven 'Maven 3.3.9' 
+        jdk 'jdk8' 
+    }
     stages {
-        stage ('SCM Checkout'){
+        stage ('Initialize') {
             steps {
-                git 'https://github.com/rafishaik555/autoit_pipeline'
-            }
-            
-        }
-        stage ('Compile Stage') {
-
-                       def mvnHome = tool name: 'MAVEN_HOME', type: 'maven'
-                    sh "${mvnHome}/bin/mvn package"
-            
-        }
-        stage ('Testing Stage') {
-
-            steps {
-               sh 'mvn test'
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+                ''' 
             }
         }
-        stage ('Install Stage') {
+
+        stage ('Build') {
             steps {
-                sh 'mvn install'
+                echo 'This is a minimal pipeline.'
             }
         }
     }
