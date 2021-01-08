@@ -3,17 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.orangehrm.demo.testcases.TestSample">
+      <class name="com.orangehrm.demo.testcases.login.AutoITTest">
         <methods>
-          <include name="TC001_TD001" invocation-numbers="6 2 4 3 8 0 7 9 5 1 11 15 13 12 10 14"/>
-          <include name="beforeClass"/>
-          <include name="initSetup"/>
-          <include name="afterMethod"/>
-          <include name="afterTest"/>
-          <include name="afterClass"/>
-          <include name="TC001_TD001_BeforeMethod"/>
+          <include name="testLoginAdmin"/>
+          <include name="closeBrowser"/>
+          <include name="afterSuite"/>
+          <include name="checkCaseToRun"/>
+          <include name="reporterDataResults"/>
+          <include name="checkSuiteToRun"/>
+          <include name="setUpFramework"/>
+          <include name="launch_browser"/>
         </methods>
-      </class> <!-- com.orangehrm.demo.testcases.TestSample -->
+      </class> <!-- com.orangehrm.demo.testcases.login.AutoITTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

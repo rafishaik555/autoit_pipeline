@@ -15,5 +15,11 @@
     
 </test>
 
+<test name="AutoITTest">
+	 <classes>
+        <class name="com.orangehrm.demo.testcases.login.AutoITTest" />  
+    </classes>
+    
+</test>
 
 </suite>

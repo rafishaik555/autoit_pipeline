@@ -15,9 +15,25 @@
           <include name="setUpFramework"/>
           <include name="checkCaseToRun"/>
           <include name="closeBrowser"/>
-          <include name="testLoginAdmin" invocation-numbers="0 1 2"/>
+          <include name="testLoginAdmin" invocation-numbers="2"/>
         </methods>
       </class> <!-- com.orangehrm.demo.testcases.login.LoginAdminTest -->
     </classes>
   </test> <!-- LoginAdminTest(failed) -->
+  <test thread-count="5" verbose="0" name="AutoITTest(failed)">
+    <classes>
+      <class name="com.orangehrm.demo.testcases.login.AutoITTest">
+        <methods>
+          <include name="testLoginAdmin" invocation-numbers="1 2"/>
+          <include name="closeBrowser"/>
+          <include name="afterSuite"/>
+          <include name="checkCaseToRun"/>
+          <include name="reporterDataResults"/>
+          <include name="checkSuiteToRun"/>
+          <include name="setUpFramework"/>
+          <include name="launch_browser"/>
+        </methods>
+      </class> <!-- com.orangehrm.demo.testcases.login.AutoITTest -->
+    </classes>
+  </test> <!-- AutoITTest(failed) -->
 </suite> <!-- Failed suite [LoginSuite] -->

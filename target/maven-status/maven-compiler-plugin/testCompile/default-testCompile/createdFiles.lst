@@ -4,6 +4,7 @@ com\orangehrm\demo\testcases\login\LoginAdminTest.class
 com\orangehrm\demo\testcases\TestSample.class
 com\orangehrm\demo\testcases\login\LoginTestSupervisor.class
 com\orangehrm\demo\testcases\registeruser\CompleteRegister.class
+com\orangehrm\demo\testcases\login\AutoITTest.class
 com\orangehrm\demo\testcases\login\LoginBase.class
 com\orangehrm\demo\testcases\login\LoginTestESS.class
 com\orangehrm\demo\testcases\BaseTest.class

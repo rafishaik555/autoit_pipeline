@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">3 suites, 2 failed tests</span>
+      <span class="top-banner-font-1">3 suites</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-LoginSuite">
-              <span class="suite-name border-failed">LoginSuite</span>
+              <span class="suite-name border-skipped">LoginSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-LoginSuite">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,  1 skipped,  </span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-LoginSuite" class="hide-methods failed suite-LoginSuite"> (hide)</a> <!-- hide-methods failed suite-LoginSuite -->
-                      <a href="#" panel-name="suite-LoginSuite" class="show-methods failed suite-LoginSuite"> (show)</a> <!-- show-methods failed suite-LoginSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-LoginSuite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.orangehrm.demo.testcases.login.LoginAdminTest" hash-for-method="testLoginAdmin(chrome, admin, admin123, Mahmid Hossain)">testLoginAdmin(chrome, admin, admin123, Mahmid Hossain)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.orangehrm.demo.testcases.login.LoginAdminTest" hash-for-method="testLoginAdmin(chrome, invalidadmin, qwerty, Jacqueline White)">testLoginAdmin(chrome, invalidadmin, qwerty, Jacqueline White)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-LoginSuite -->
+                    <span class="method-stats">6 methods,  3 skipped,  3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -124,7 +105,41 @@
                         <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.orangehrm.demo.testcases.login.LoginAdminTest" hash-for-method="testLoginAdmin(chrome, rafi, shireen, Jacqueline White)">testLoginAdmin(chrome, rafi, shireen, Jacqueline White)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.orangehrm.demo.testcases.login.AutoITTest" hash-for-method="testLoginAdmin(, , , )">testLoginAdmin(, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.orangehrm.demo.testcases.login.AutoITTest" hash-for-method="testLoginAdmin(, , , )">testLoginAdmin(, , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content skipped suite-LoginSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LoginSuite" class="hide-methods passed suite-LoginSuite"> (hide)</a> <!-- hide-methods passed suite-LoginSuite -->
+                      <a href="#" panel-name="suite-LoginSuite" class="show-methods passed suite-LoginSuite"> (show)</a> <!-- show-methods passed suite-LoginSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-LoginSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.orangehrm.demo.testcases.login.LoginAdminTest" hash-for-method="testLoginAdmin(chrome, admin, admin123, Jacqueline White)">testLoginAdmin(chrome, admin, admin123, Jacqueline White)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.orangehrm.demo.testcases.login.LoginAdminTest" hash-for-method="testLoginAdmin(chrome, admin, admin123, Jacqueline White)">testLoginAdmin(chrome, admin, admin123, Jacqueline White)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-LoginSuite" title="com.orangehrm.demo.testcases.login.AutoITTest" hash-for-method="testLoginAdmin(chrome, admin, admin123, Jacqueline White)">testLoginAdmin(chrome, admin, admin123, Jacqueline White)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LoginSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -217,104 +232,6 @@
         <div panel-name="suite-Suite" class="panel Suite">
         </div> <!-- panel Suite -->
         <div panel-name="suite-LoginSuite" class="panel LoginSuite">
-          <div class="suite-LoginSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.orangehrm.demo.testcases.login.LoginAdminTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginAdmin(chrome, admin, admin123, Mahmid Hossain)">
-                  </a> <!-- testLoginAdmin(chrome, admin, admin123, Mahmid Hossain) -->
-                  <span class="method-name">testLoginAdmin</span>
-                  <span class="parameters">(chrome, admin, admin123, Mahmid Hossain)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 60 seconds. Unable to locate the element
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.getText(Unknown Source)
-	at com.orangehrm.demo.pages.OrangeHRMDashBoardPage.checkLoggedinAsAdmin(OrangeHRMDashBoardPage.java:48)
-	at com.orangehrm.demo.testcases.login.LoginAdminTest.testLoginAdmin(LoginAdminTest.java:109)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;account-name&apos;][contains(text(),&apos;Jacqueline White&apos;)]&quot;}
-  (Session info: chrome=86.0.4240.198)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17758 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;DESKTOP-LMKUR01&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.198, webStorageEnabled: true}
-Session ID: 683a0f14434905559508311239f056af
-*** Element info: {Using=xpath, value=//span[@id=&apos;account-name&apos;][contains(text(),&apos;Jacqueline White&apos;)]}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:40)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:156)
-	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:69)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:86)
-	... 34 more
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLoginAdmin(chrome, invalidadmin, qwerty, Jacqueline White)">
-                  </a> <!-- testLoginAdmin(chrome, invalidadmin, qwerty, Jacqueline White) -->
-                  <span class="method-name">testLoginAdmin</span>
-                  <span class="parameters">(chrome, invalidadmin, qwerty, Jacqueline White)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Timed out after 60 seconds. Unable to locate the element
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:90)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy12.getText(Unknown Source)
-	at com.orangehrm.demo.pages.OrangeHRMDashBoardPage.checkLoggedinAsAdmin(OrangeHRMDashBoardPage.java:48)
-	at com.orangehrm.demo.testcases.login.LoginAdminTest.testLoginAdmin(LoginAdminTest.java:109)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@id=&apos;account-name&apos;][contains(text(),&apos;Jacqueline White&apos;)]&quot;}
-  (Session info: chrome=86.0.4240.198)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17758 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;
-System info: host: &apos;DESKTOP-LMKUR01&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.198, webStorageEnabled: true}
-Session ID: 36b9f93977148125cba4d7f94fe32eef
-*** Element info: {Using=xpath, value=//span[@id=&apos;account-name&apos;][contains(text(),&apos;Jacqueline White&apos;)]}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.access$001(AjaxElementLocator.java:40)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator$SlowLoadingElement.isLoaded(AjaxElementLocator.java:156)
-	at org.openqa.selenium.support.ui.SlowLoadableComponent.get(SlowLoadableComponent.java:69)
-	at org.openqa.selenium.support.pagefactory.AjaxElementLocator.findElement(AjaxElementLocator.java:86)
-	... 34 more
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-LoginSuite-class-failed -->
           <div class="suite-LoginSuite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -335,6 +252,78 @@ Session ID: 36b9f93977148125cba4d7f94fe32eef
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-LoginSuite-class-skipped -->
+          <div class="suite-LoginSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.orangehrm.demo.testcases.login.AutoITTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAdmin(, , , )">
+                  </a> <!-- testLoginAdmin(, , , ) -->
+                  <span class="method-name">testLoginAdmin</span>
+                  <span class="parameters">(, , , )</span>
+                  <div class="stack-trace">org.testng.SkipException: DataToRun for row number 1 Is No Or Blank. So Skipping Its Execution.
+	at com.orangehrm.demo.testcases.login.AutoITTest.testLoginAdmin(AutoITTest.java:94)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAdmin(, , , )">
+                  </a> <!-- testLoginAdmin(, , , ) -->
+                  <span class="method-name">testLoginAdmin</span>
+                  <span class="parameters">(, , , )</span>
+                  <div class="stack-trace">org.testng.SkipException: DataToRun for row number 2 Is No Or Blank. So Skipping Its Execution.
+	at com.orangehrm.demo.testcases.login.AutoITTest.testLoginAdmin(AutoITTest.java:94)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LoginSuite-class-skipped -->
+          <div class="suite-LoginSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.demo.testcases.login.LoginAdminTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAdmin(chrome, admin, admin123, Jacqueline White)">
+                  </a> <!-- testLoginAdmin(chrome, admin, admin123, Jacqueline White) -->
+                  <span class="method-name">testLoginAdmin</span>
+                  <span class="parameters">(chrome, admin, admin123, Jacqueline White)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAdmin(chrome, admin, admin123, Jacqueline White)">
+                  </a> <!-- testLoginAdmin(chrome, admin, admin123, Jacqueline White) -->
+                  <span class="method-name">testLoginAdmin</span>
+                  <span class="parameters">(chrome, admin, admin123, Jacqueline White)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LoginSuite-class-passed -->
+          <div class="suite-LoginSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.demo.testcases.login.AutoITTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginAdmin(chrome, admin, admin123, Jacqueline White)">
+                  </a> <!-- testLoginAdmin(chrome, admin, admin123, Jacqueline White) -->
+                  <span class="method-name">testLoginAdmin</span>
+                  <span class="parameters">(chrome, admin, admin123, Jacqueline White)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LoginSuite-class-passed -->
         </div> <!-- panel LoginSuite -->
         <div panel-name="suite-RegisterUserSuite" class="panel RegisterUserSuite">
           <div class="suite-RegisterUserSuite-class-passed">
@@ -387,6 +376,11 @@ Session ID: 36b9f93977148125cba4d7f94fe32eef
       &lt;class name=&quot;com.orangehrm.demo.testcases.login.LoginAdminTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- LoginAdminTest --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;AutoITTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangehrm.demo.testcases.login.AutoITTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AutoITTest --&gt;
 &lt;/suite&gt; &lt;!-- LoginSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -429,6 +423,9 @@ Session ID: 36b9f93977148125cba4d7f94fe32eef
             <ul>
               <li>
                 <span class="test-name">LoginAdminTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AutoITTest (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -504,24 +501,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLoginAdmin')
-data.setCell(0, 2, 'com.orangehrm.demo.testcases.login.LoginAdminTest')
-data.setCell(0, 3, 100406);
+data.setCell(0, 2, 'com.orangehrm.demo.testcases.login.AutoITTest')
+data.setCell(0, 3, 47385);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLoginAdmin')
 data.setCell(1, 2, 'com.orangehrm.demo.testcases.login.LoginAdminTest')
-data.setCell(1, 3, 96408);
+data.setCell(1, 3, 28582);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testLoginAdmin')
 data.setCell(2, 2, 'com.orangehrm.demo.testcases.login.LoginAdminTest')
-data.setCell(2, 3, 1);
+data.setCell(2, 3, 25471);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLoginAdmin')
+data.setCell(3, 2, 'com.orangehrm.demo.testcases.login.LoginAdminTest')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLoginAdmin')
+data.setCell(4, 2, 'com.orangehrm.demo.testcases.login.AutoITTest')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testLoginAdmin')
+data.setCell(5, 2, 'com.orangehrm.demo.testcases.login.AutoITTest')
+data.setCell(5, 3, 3);
 window.suiteTableData['LoginSuite']= { tableData: data, tableDiv: 'times-div-LoginSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-LoginSuite">
               </div> <!-- times-div-LoginSuite -->
             </div> <!-- times-div -->
@@ -545,12 +554,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'f')
 data.setCell(0, 2, 'com.orangehrm.demo.testcases.registeruser.CompleteRegister')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 16);
 window.suiteTableData['RegisterUserSuite']= { tableData: data, tableDiv: 'times-div-RegisterUserSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 16 ms</span>
               <div id="times-div-RegisterUserSuite">
               </div> <!-- times-div-RegisterUserSuite -->
             </div> <!-- times-div -->
@@ -611,66 +620,112 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.demo.testcases.login.LoginAdminTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.orangehrm.demo.testcases.login.AutoITTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUpFramework</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-suite before">
                 <span class="method-name">checkSuiteToRun</span>
-                <span class="method-start">93 ms</span>
+                <span class="method-start">61 ms</span>
               </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.demo.testcases.login.LoginAdminTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">checkCaseToRun</span>
-                <span class="method-start">564 ms</span>
+                <span class="method-start">304 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">launch_browser</span>
-                <span class="method-start">698 ms</span>
+                <span class="method-start">375 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testLoginAdmin(chrome, admin, admin123, Mahmid Hossain)</span>
-                <span class="method-start">699 ms</span>
+                <span class="method-name">testLoginAdmin(chrome, admin, admin123, Jacqueline White)</span>
+                <span class="method-start">375 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">reporterDataResults</span>
-                <span class="method-start">101481 ms</span>
+                <span class="method-start">28961 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launch_browser</span>
-                <span class="method-start">101510 ms</span>
+                <span class="method-start">28972 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">testLoginAdmin(chrome, invalidadmin, qwerty, Jacqueline White)</span>
-                <span class="method-start">101510 ms</span>
+                <span class="method-name">testLoginAdmin(chrome, admin, admin123, Jacqueline White)</span>
+                <span class="method-start">28972 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">reporterDataResults</span>
-                <span class="method-start">198267 ms</span>
+                <span class="method-start">54443 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launch_browser</span>
-                <span class="method-start">198276 ms</span>
+                <span class="method-start">54446 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLoginAdmin(chrome, rafi, shireen, Jacqueline White)</span>
-                <span class="method-start">198276 ms</span>
+                <span class="method-start">54446 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">reporterDataResults</span>
-                <span class="method-start">198278 ms</span>
+                <span class="method-start">54450 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">198289 ms</span>
+                <span class="method-start">54455 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.demo.testcases.login.AutoITTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">checkCaseToRun</span>
+                <span class="method-start">56907 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">launch_browser</span>
+                <span class="method-start">56984 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(chrome, admin, admin123, Jacqueline White)</span>
+                <span class="method-start">56985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">104372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch_browser</span>
+                <span class="method-start">104380 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(, , , )</span>
+                <span class="method-start">104381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">104385 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launch_browser</span>
+                <span class="method-start">104393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginAdmin(, , , )</span>
+                <span class="method-start">104393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">reporterDataResults</span>
+                <span class="method-start">104398 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">104401 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">199378 ms</span>
+                <span class="method-start">104552 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -691,11 +746,11 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">f</span>
-                <span class="method-start">33 ms</span>
+                <span class="method-start">345 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">378 ms</span>
+                <span class="method-start">498 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

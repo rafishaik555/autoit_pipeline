@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="203.234" tests="4" errors="0" skipped="1" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="107.911" tests="7" errors="0" skipped="3" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire6225498395966367614\surefirebooter1172260658062093724.jar C:\Users\hp\AppData\Local\Temp\surefire6225498395966367614 2020-11-24T00-20-23_209-jvmRun1 surefire2870173829329347902tmp surefire_02137446062950070241tmp"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire8087174281951832126\surefirebooter2887036908385591693.jar C:\Users\hp\AppData\Local\Temp\surefire8087174281951832126 2021-01-08T17-04-55_237-jvmRun1 surefire4938692781864494394tmp surefire_01951826544965183891tmp"/>
     <property name="surefire.test.class.path" value="E:\frameworks\FRM_NEW\WKSPACE\POCJCT\target\test-classes;E:\frameworks\FRM_NEW\WKSPACE\POCJCT\target\classes;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\hp\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\hp\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\hp\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hp\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hp\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hp\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\hp\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hp\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\hp\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\hp\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hp\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\hp\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\hp\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\hp\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\hp\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\hp\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\hp\.m2\repository\org\json\json\20160212\json-20160212.jar;C:\Users\hp\.m2\repository\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar;C:\Users\hp\.m2\repository\org\apache\activemq\activemq-client\5.13.0\activemq-client-5.13.0.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\hp\.m2\repository\org\apache\geronimo\specs\geronimo-jms_1.1_spec\1.1.1\geronimo-jms_1.1_spec-1.1.1.jar;C:\Users\hp\.m2\repository\org\fusesource\hawtbuf\hawtbuf\1.11\hawtbuf-1.11.jar;C:\Users\hp\.m2\repository\org\apache\geronimo\specs\geronimo-j2ee-management_1.1_spec\1.0.1\geronimo-j2ee-management_1.1_spec-1.0.1.jar;C:\Users\hp\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hp\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hp\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hp\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hp\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\hp\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hp\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\hp\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\hp\.m2\repository\mysql\mysql-connector-java\6.0.5\mysql-connector-java-6.0.5.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi\3.6\poi-3.6.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml\3.6\poi-ooxml-3.6.jar;C:\Users\hp\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\hp\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\hp\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\hp\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hp\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.6\poi-ooxml-schemas-3.6.jar;C:\Users\hp\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;C:\Users\hp\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\hp\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\hp\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\hp\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\hp\.m2\repository\jaxen\jaxen\1.1.6\jaxen-1.1.6.jar;C:\Users\hp\.m2\repository\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;C:\Users\hp\.m2\repository\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar;C:\Users\hp\.m2\repository\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;C:\Users\hp\.m2\repository\org\ow2\asm\asm\5.0.3\asm-5.0.3.jar;C:\Users\hp\.m2\repository\org\slf4j\slf4j-simple\1.7.25\slf4j-simple-1.7.25.jar;C:\Users\hp\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\hp\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\hp\.m2\repository\org\jdom\jdom2\2.0.6\jdom2-2.0.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\hp"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire6225498395966367614\surefirebooter1172260658062093724.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire8087174281951832126\surefirebooter2887036908385591693.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_261\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,81 +61,92 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testLoginAdmin[chrome, admin, admin123, Mahmid Hossain](1)" classname="com.orangehrm.demo.testcases.login.LoginAdminTest" time="100.704">
-    <failure message="Timed out after 60 seconds. Unable to locate the element" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 60 seconds. Unable to locate the element
-	at com.orangehrm.demo.testcases.login.LoginAdminTest.testLoginAdmin(LoginAdminTest.java:109)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='account-name'][contains(text(),'Jacqueline White')]"}
-  (Session info: chrome=86.0.4240.198)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17758 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-LMKUR01', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.198, webStorageEnabled: true}
-Session ID: 683a0f14434905559508311239f056af
-*** Element info: {Using=xpath, value=//span[@id='account-name'][contains(text(),'Jacqueline White')]}
-	at com.orangehrm.demo.testcases.login.LoginAdminTest.testLoginAdmin(LoginAdminTest.java:109)
-]]></failure>
+  <testcase name="testLoginAdmin[chrome, admin, admin123, Jacqueline White](1)" classname="com.orangehrm.demo.testcases.login.LoginAdminTest" time="28.647">
     <system-out><![CDATA[[TestNG] [WARN] Ignoring duplicate listener : com.orangehrm.demo.extentListeners.ExtentListeners
-2020-11-24 00:20:28,307  INFO com.orangehrm.demo.testcases.BaseTest:114 - Config properties file loaded
+2021-01-08 17:04:59,497  INFO com.orangehrm.demo.testcases.BaseTest:114 - Config properties file loaded
 Test Case Name VALUE ...........LoginAdminTest
 inside valid login test case .... credentials
 browser type ...............chrome
 username..............admin
 password........admin123
-expected result............Mahmid Hossain
+expected result............Jacqueline White
 WITH OUT SELENIUM GRID....................
 Launching : chrome
-2020-11-24 00:20:34,081  INFO com.orangehrm.demo.testcases.BaseTest:215 - Driver Initialized !!!
+2021-01-08 17:05:04,953  INFO com.orangehrm.demo.testcases.BaseTest:215 - Driver Initialized !!!
 Page Opened
 inside go to login
 user name in valid user .........admin
 password in valid user .........admin123
 
+actual test result is ..........Jacqueline White
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 11378
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 5112
 Only local connections are allowed.
-Nov 24, 2020 12:20:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 08, 2021 5:05:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testLoginAdmin[chrome, invalidadmin, qwerty, Jacqueline White](2)" classname="com.orangehrm.demo.testcases.login.LoginAdminTest" time="96.979">
-    <failure message="Timed out after 60 seconds. Unable to locate the element" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: Timed out after 60 seconds. Unable to locate the element
-	at com.orangehrm.demo.testcases.login.LoginAdminTest.testLoginAdmin(LoginAdminTest.java:109)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//span[@id='account-name'][contains(text(),'Jacqueline White')]"}
-  (Session info: chrome=86.0.4240.198)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 10.0.17758 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'DESKTOP-LMKUR01', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\hp\AppData\Local\T...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 86.0.4240.198, webStorageEnabled: true}
-Session ID: 36b9f93977148125cba4d7f94fe32eef
-*** Element info: {Using=xpath, value=//span[@id='account-name'][contains(text(),'Jacqueline White')]}
-	at com.orangehrm.demo.testcases.login.LoginAdminTest.testLoginAdmin(LoginAdminTest.java:109)
-]]></failure>
+  <testcase name="testLoginAdmin[chrome, admin, admin123, Jacqueline White](2)" classname="com.orangehrm.demo.testcases.login.LoginAdminTest" time="25.119">
     <system-out><![CDATA[LoginAdminTest : Reporting test data set line 1 as PASS In excel.
 inside valid login test case .... credentials
 browser type ...............chrome
-username..............invalidadmin
-password........qwerty
+username..............admin
+password........admin123
 expected result............Jacqueline White
 WITH OUT SELENIUM GRID....................
 Launching : chrome
-2020-11-24 00:22:12,017  INFO com.orangehrm.demo.testcases.BaseTest:215 - Driver Initialized !!!
+2021-01-08 17:05:31,414  INFO com.orangehrm.demo.testcases.BaseTest:215 - Driver Initialized !!!
 Page Opened
 inside go to login
-user name in valid user .........invalidadmin
-password in valid user .........qwerty
+user name in valid user .........admin
+password in valid user .........admin123
 
+actual test result is ..........Jacqueline White
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 9214
+    <system-err><![CDATA[java.io.FileNotFoundException: E:\frameworks\FRM_NEW\WKSPACE\POCJCT\src\test\resources\testdata\LoginSuite.xls (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.orangehrm.demo.utilities.Read_XLS.writeResult(Read_XLS.java:231)
+	at com.orangehrm.demo.utilities.SuiteUtility.WriteResultUtility(SuiteUtility.java:25)
+	at com.orangehrm.demo.testcases.login.LoginAdminTest.reporterDataResults(LoginAdminTest.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 6998
 Only local connections are allowed.
-Nov 24, 2020 12:22:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 08, 2021 5:05:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
@@ -148,57 +159,429 @@ username..............rafi
 password........shireen
 expected result............Jacqueline White
 ]]></system-out>
+    <system-err><![CDATA[java.io.FileNotFoundException: E:\frameworks\FRM_NEW\WKSPACE\POCJCT\src\test\resources\testdata\LoginSuite.xls (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.orangehrm.demo.utilities.Read_XLS.writeResult(Read_XLS.java:231)
+	at com.orangehrm.demo.utilities.SuiteUtility.WriteResultUtility(SuiteUtility.java:25)
+	at com.orangehrm.demo.testcases.login.LoginAdminTest.reporterDataResults(LoginAdminTest.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
   </testcase>
-  <testcase name="f" classname="com.orangehrm.demo.testcases.registeruser.CompleteRegister" time="0.001">
+  <testcase name="testLoginAdmin[chrome, admin, admin123, Jacqueline White](1)" classname="com.orangehrm.demo.testcases.login.AutoITTest" time="46.41">
     <system-out><![CDATA[LoginAdminTest : Reporting test data set line 3 as SKIP In excel.
 LoginAdminTest : Reporting test case as PASS In excel.
-2020-11-24 00:23:46,747 DEBUG freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
-2020-11-24 00:23:46,756 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
-2020-11-24 00:23:46,774 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
-2020-11-24 00:23:46,775 DEBUG freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
-2020-11-24 00:23:47,223 DEBUG freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
-2020-11-24 00:23:47,225 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
-2020-11-24 00:23:47,225 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
-2020-11-24 00:23:47,226 DEBUG freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
-2020-11-24 00:23:47,234 DEBUG freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
-2020-11-24 00:23:47,235 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
-2020-11-24 00:23:47,236 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
-2020-11-24 00:23:47,236 DEBUG freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
-2020-11-24 00:23:47,289 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-11-24 00:23:47,291 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
-2020-11-24 00:23:47,292 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
-2020-11-24 00:23:47,292 DEBUG freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
-2020-11-24 00:23:47,335 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
-2020-11-24 00:23:47,336 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
-2020-11-24 00:23:47,336 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
-2020-11-24 00:23:47,336 DEBUG freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
-2020-11-24 00:23:47,362 DEBUG freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-11-24 00:23:47,368 DEBUG freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
-2020-11-24 00:23:47,369 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
-2020-11-24 00:23:47,370 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
-2020-11-24 00:23:47,371 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
-2020-11-24 00:23:47,371 DEBUG freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
-2020-11-24 00:23:47,381 DEBUG freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-11-24 00:23:47,382 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
-2020-11-24 00:23:47,382 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
-2020-11-24 00:23:47,383 DEBUG freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
-2020-11-24 00:23:47,388 DEBUG freemarker.cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-11-24 00:23:47,389 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
-2020-11-24 00:23:47,390 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
-2020-11-24 00:23:47,391 DEBUG freemarker.cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
-2020-11-24 00:23:47,457 DEBUG freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-11-24 00:23:47,458 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
-2020-11-24 00:23:47,459 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
-2020-11-24 00:23:47,460 DEBUG freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
-2020-11-24 00:23:47,475 DEBUG freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-11-24 00:23:47,486 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
-2020-11-24 00:23:47,489 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
-2020-11-24 00:23:47,490 DEBUG freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
-2020-11-24 00:23:47,563 DEBUG freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
-2020-11-24 00:23:47,565 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
-2020-11-24 00:23:47,566 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
-2020-11-24 00:23:47,566 DEBUG freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
-2020-11-24 00:23:47,618  INFO com.orangehrm.demo.testcases.BaseTest:114 - Config properties file loaded
+2021-01-08 17:05:54,303 DEBUG freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:05:54,304 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2021-01-08 17:05:54,306 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2021-01-08 17:05:54,306 DEBUG freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2021-01-08 17:05:56,091 DEBUG freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:05:56,091 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2021-01-08 17:05:56,092 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2021-01-08 17:05:56,092 DEBUG freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2021-01-08 17:05:56,095 DEBUG freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:05:56,095 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2021-01-08 17:05:56,096 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2021-01-08 17:05:56,102 DEBUG freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2021-01-08 17:05:56,136 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:05:56,138 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2021-01-08 17:05:56,138 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2021-01-08 17:05:56,138 DEBUG freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2021-01-08 17:05:56,189 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:05:56,189 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2021-01-08 17:05:56,190 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2021-01-08 17:05:56,190 DEBUG freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2021-01-08 17:05:56,206 DEBUG freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-01-08 17:05:56,211 DEBUG freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-01-08 17:05:56,212 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:05:56,213 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2021-01-08 17:05:56,213 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2021-01-08 17:05:56,213 DEBUG freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2021-01-08 17:05:56,225 DEBUG freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:05:56,226 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2021-01-08 17:05:56,227 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2021-01-08 17:05:56,230 DEBUG freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2021-01-08 17:05:56,239 DEBUG freemarker.cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:05:56,240 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2021-01-08 17:05:56,241 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2021-01-08 17:05:56,241 DEBUG freemarker.cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2021-01-08 17:05:56,270 DEBUG freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:05:56,271 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2021-01-08 17:05:56,272 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2021-01-08 17:05:56,272 DEBUG freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2021-01-08 17:05:56,278 DEBUG freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:05:56,279 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2021-01-08 17:05:56,280 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2021-01-08 17:05:56,280 DEBUG freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2021-01-08 17:05:56,315 DEBUG freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:05:56,316 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2021-01-08 17:05:56,317 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2021-01-08 17:05:56,317 DEBUG freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+Test Case Name VALUE ...........AutoITTest
+inside valid login test case .... credentials
+browser type ...............chrome
+username..............admin
+password........admin123
+expected result............Jacqueline White
+WITH OUT SELENIUM GRID....................
+Launching : chrome
+2021-01-08 17:06:02,227  INFO com.orangehrm.demo.testcases.BaseTest:215 - Driver Initialized !!!
+actual test result is ..........Jacqueline White
 ]]></system-out>
+    <system-err><![CDATA[java.io.FileNotFoundException: E:\frameworks\FRM_NEW\WKSPACE\POCJCT\src\test\resources\testdata\LoginSuite.xls (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.orangehrm.demo.utilities.Read_XLS.writeResult(Read_XLS.java:231)
+	at com.orangehrm.demo.utilities.SuiteUtility.WriteResultUtility(SuiteUtility.java:25)
+	at com.orangehrm.demo.testcases.login.LoginAdminTest.reporterDataResults(LoginAdminTest.java:138)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+java.io.FileNotFoundException: E:\frameworks\FRM_NEW\WKSPACE\POCJCT\src\test\resources\testdata\LoginSuite.xls (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.orangehrm.demo.utilities.Read_XLS.writeResult(Read_XLS.java:284)
+	at com.orangehrm.demo.utilities.SuiteUtility.WriteResultUtility(SuiteUtility.java:29)
+	at com.orangehrm.demo.testcases.login.LoginAdminTest.closeBrowser(LoginAdminTest.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.afterRun(TestRunner.java:725)
+	at org.testng.TestRunner.run(TestRunner.java:509)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 7790
+Only local connections are allowed.
+Jan 08, 2021 5:06:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginAdmin[, , , ](2)" classname="com.orangehrm.demo.testcases.login.AutoITTest" time="0">
+    <skipped message="DataToRun for row number 1 Is No Or Blank. So Skipping Its Execution."/>
+    <system-out><![CDATA[AutoITTest : Reporting test data set line 1 as PASS In excel.
+inside valid login test case .... credentials
+browser type ...............
+username..............
+password........
+expected result............
+]]></system-out>
+    <system-err><![CDATA[java.io.FileNotFoundException: E:\frameworks\FRM_NEW\WKSPACE\POCJCT\src\test\resources\testdata\LoginSuite.xls (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.orangehrm.demo.utilities.Read_XLS.writeResult(Read_XLS.java:231)
+	at com.orangehrm.demo.utilities.SuiteUtility.WriteResultUtility(SuiteUtility.java:25)
+	at com.orangehrm.demo.testcases.login.AutoITTest.reporterDataResults(AutoITTest.java:162)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginAdmin[, , , ](3)" classname="com.orangehrm.demo.testcases.login.AutoITTest" time="0">
+    <skipped message="DataToRun for row number 2 Is No Or Blank. So Skipping Its Execution."/>
+    <system-out><![CDATA[AutoITTest : Reporting test data set line 2 as SKIP In excel.
+inside valid login test case .... credentials
+browser type ...............
+username..............
+password........
+expected result............
+]]></system-out>
+    <system-err><![CDATA[java.io.FileNotFoundException: E:\frameworks\FRM_NEW\WKSPACE\POCJCT\src\test\resources\testdata\LoginSuite.xls (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.orangehrm.demo.utilities.Read_XLS.writeResult(Read_XLS.java:231)
+	at com.orangehrm.demo.utilities.SuiteUtility.WriteResultUtility(SuiteUtility.java:25)
+	at com.orangehrm.demo.testcases.login.AutoITTest.reporterDataResults(AutoITTest.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="f" classname="com.orangehrm.demo.testcases.registeruser.CompleteRegister" time="0">
+    <system-out><![CDATA[AutoITTest : Reporting test data set line 3 as SKIP In excel.
+AutoITTest : Reporting test case as PASS In excel.
+2021-01-08 17:06:43,858 DEBUG freemarker.cache:45 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:06:43,859 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+2021-01-08 17:06:43,860 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("index.ftl"): Found
+2021-01-08 17:06:43,860 DEBUG freemarker.cache:45 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+2021-01-08 17:06:43,881 DEBUG freemarker.cache:45 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:06:43,882 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+2021-01-08 17:06:43,883 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("head.ftl"): Found
+2021-01-08 17:06:43,883 DEBUG freemarker.cache:45 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+2021-01-08 17:06:43,889 DEBUG freemarker.cache:45 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:06:43,890 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+2021-01-08 17:06:43,890 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+2021-01-08 17:06:43,890 DEBUG freemarker.cache:45 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+2021-01-08 17:06:43,896 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:06:43,897 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+2021-01-08 17:06:43,898 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+2021-01-08 17:06:43,899 DEBUG freemarker.cache:45 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+2021-01-08 17:06:43,911 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:06:43,912 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+2021-01-08 17:06:43,912 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+2021-01-08 17:06:43,913 DEBUG freemarker.cache:45 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+2021-01-08 17:06:43,925 DEBUG freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-01-08 17:06:43,929 DEBUG freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-01-08 17:06:43,931 DEBUG freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-01-08 17:06:43,935 DEBUG freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-01-08 17:06:43,937 DEBUG freemarker.cache:45 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2021-01-08 17:06:43,938 DEBUG freemarker.cache:45 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:06:43,939 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+2021-01-08 17:06:43,940 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+2021-01-08 17:06:43,941 DEBUG freemarker.cache:45 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+2021-01-08 17:06:43,946 DEBUG freemarker.cache:45 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:06:43,948 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+2021-01-08 17:06:43,948 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+2021-01-08 17:06:43,949 DEBUG freemarker.cache:45 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+2021-01-08 17:06:43,957 DEBUG freemarker.cache:45 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:06:43,958 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+2021-01-08 17:06:43,959 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+2021-01-08 17:06:43,959 DEBUG freemarker.cache:45 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+2021-01-08 17:06:43,967 DEBUG freemarker.cache:45 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:06:43,968 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+2021-01-08 17:06:43,969 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+2021-01-08 17:06:43,970 DEBUG freemarker.cache:45 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+2021-01-08 17:06:43,976 DEBUG freemarker.cache:45 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:06:43,977 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+2021-01-08 17:06:43,977 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+2021-01-08 17:06:43,977 DEBUG freemarker.cache:45 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+2021-01-08 17:06:43,984 DEBUG freemarker.cache:45 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2021-01-08 17:06:43,986 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+2021-01-08 17:06:43,987 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+2021-01-08 17:06:43,988 DEBUG freemarker.cache:45 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/hp/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2021-01-08 17:06:44,000  INFO com.orangehrm.demo.testcases.BaseTest:114 - Config properties file loaded
+]]></system-out>
+    <system-err><![CDATA[java.io.FileNotFoundException: E:\frameworks\FRM_NEW\WKSPACE\POCJCT\src\test\resources\testdata\LoginSuite.xls (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.orangehrm.demo.utilities.Read_XLS.writeResult(Read_XLS.java:231)
+	at com.orangehrm.demo.utilities.SuiteUtility.WriteResultUtility(SuiteUtility.java:25)
+	at com.orangehrm.demo.testcases.login.AutoITTest.reporterDataResults(AutoITTest.java:149)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+java.io.FileNotFoundException: E:\frameworks\FRM_NEW\WKSPACE\POCJCT\src\test\resources\testdata\LoginSuite.xls (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:101)
+	at com.orangehrm.demo.utilities.Read_XLS.writeResult(Read_XLS.java:284)
+	at com.orangehrm.demo.utilities.SuiteUtility.WriteResultUtility(SuiteUtility.java:29)
+	at com.orangehrm.demo.testcases.login.AutoITTest.closeBrowser(AutoITTest.java:187)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.afterRun(TestRunner.java:725)
+	at org.testng.TestRunner.run(TestRunner.java:509)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1204)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
   </testcase>
 </testsuite>

@@ -1,701 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="16" ignored="0" total="16" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3279" started-at="2020-11-16T06:44:31Z" finished-at="2020-11-16T06:44:34Z">
+  <suite name="Default suite" duration-ms="260" started-at="2021-01-08T11:16:07Z" finished-at="2021-01-08T11:16:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3279" started-at="2020-11-16T06:44:31Z" finished-at="2020-11-16T06:44:34Z">
-      <class name="com.orangehrm.demo.testcases.TestSample">
-        <test-method status="PASS" signature="initSetup()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="initSetup" is-config="true" duration-ms="812" started-at="2020-11-16T06:44:31Z" finished-at="2020-11-16T06:44:32Z">
+    <test name="Default test" duration-ms="260" started-at="2021-01-08T11:16:07Z" finished-at="2021-01-08T11:16:08Z">
+      <class name="com.orangehrm.demo.testcases.login.AutoITTest">
+        <test-method status="PASS" signature="setUpFramework()[pri:0, instance:com.orangehrm.demo.testcases.login.AutoITTest@527740a2]" name="setUpFramework" is-config="true" duration-ms="292" started-at="2021-01-08T11:16:07Z" finished-at="2021-01-08T11:16:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initSetup -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-11-16T06:44:32Z" finished-at="2020-11-16T06:44:32Z">
+        </test-method> <!-- setUpFramework -->
+        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:com.orangehrm.demo.testcases.login.AutoITTest@527740a2]" name="checkSuiteToRun" is-config="true" duration-ms="607" started-at="2021-01-08T11:16:07Z" depends-on-methods="com.orangehrm.demo.testcases.BaseTest.setUpFramework" finished-at="2021-01-08T11:16:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="250" started-at="2020-11-16T06:44:32Z" finished-at="2020-11-16T06:44:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="335" started-at="2020-11-16T06:44:32Z" finished-at="2020-11-16T06:44:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="341" started-at="2020-11-16T06:44:32Z" finished-at="2020-11-16T06:44:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="344" started-at="2020-11-16T06:44:32Z" finished-at="2020-11-16T06:44:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="315" started-at="2020-11-16T06:44:32Z" finished-at="2020-11-16T06:44:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="348" started-at="2020-11-16T06:44:32Z" finished-at="2020-11-16T06:44:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="329" started-at="2020-11-16T06:44:32Z" finished-at="2020-11-16T06:44:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="272" started-at="2020-11-16T06:44:32Z" finished-at="2020-11-16T06:44:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="363" started-at="2020-11-16T06:44:32Z" finished-at="2020-11-16T06:44:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="372" started-at="2020-11-16T06:44:32Z" finished-at="2020-11-16T06:44:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="982" started-at="2020-11-16T06:44:32Z" data-provider="masterDP" finished-at="2020-11-16T06:44:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=chrome, AdminS=AdminS, Admin123=Admin123, TC001_TD002=TC001_TD003, N=N}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
+        </test-method> <!-- checkSuiteToRun -->
+        <test-method status="SKIP" signature="checkCaseToRun()[pri:0, instance:com.orangehrm.demo.testcases.login.AutoITTest@527740a2]" name="checkCaseToRun" is-config="true" duration-ms="32" started-at="2021-01-08T11:16:07Z" finished-at="2021-01-08T11:16:07Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[AutoITTest's CaseToRun Flag Is 'N' Or Blank. So Skipping Execution Of AutoITTest]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
+              <![CDATA[org.testng.SkipException: AutoITTest's CaseToRun Flag Is 'N' Or Blank. So Skipping Execution Of AutoITTest
+at com.orangehrm.demo.testcases.login.AutoITTest.checkCaseToRun(AutoITTest.java:65)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.TestRunner.beforeRun(TestRunner.java:529)
+at org.testng.TestRunner.run(TestRunner.java:497)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="641" started-at="2020-11-16T06:44:32Z" data-provider="masterDP" finished-at="2020-11-16T06:44:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=, AdminS=, Admin123=, TC001_TD002=TC_003, N=LoginTestSupervisor}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="FAIL" signature="testLoginAdmin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.demo.testcases.login.AutoITTest@527740a2]" name="testLoginAdmin" duration-ms="0" started-at="2021-01-08T11:16:08Z" data-provider="LoginAdminTest" finished-at="2021-01-08T11:16:08Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object[][] com.orangehrm.demo.testcases.login.AutoITTest.getTestData() returned a null value]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] com.orangehrm.demo.testcases.login.AutoITTest.getTestData() returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="838" started-at="2020-11-16T06:44:33Z" data-provider="masterDP" finished-at="2020-11-16T06:44:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=chrome, AdminS=raffuchakkar654321@gmail.com, Admin123=shireen555, TC001_TD002=TC002_TD001, N=Y}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- testLoginAdmin -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:com.orangehrm.demo.testcases.login.AutoITTest@527740a2]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2021-01-08T11:16:08Z" finished-at="2021-01-08T11:16:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="1071" started-at="2020-11-16T06:44:33Z" data-provider="masterDP" finished-at="2020-11-16T06:44:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=chrome, AdminS=raffuchakkar654321@gmail.com, Admin123=askjdfhjskfs, TC001_TD002=TC002_TD003, N=N}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- closeBrowser -->
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:com.orangehrm.demo.testcases.login.AutoITTest@527740a2]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-01-08T11:16:08Z" finished-at="2021-01-08T11:16:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="643" started-at="2020-11-16T06:44:33Z" data-provider="masterDP" finished-at="2020-11-16T06:44:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=browser, AdminS=username, Admin123=password, TC001_TD002=TestData_ID, N=Runmode}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="1077" started-at="2020-11-16T06:44:33Z" data-provider="masterDP" finished-at="2020-11-16T06:44:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=, AdminS=, Admin123=, TC001_TD002=TC_002, N=LoginTestESS}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="753" started-at="2020-11-16T06:44:33Z" data-provider="masterDP" finished-at="2020-11-16T06:44:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=IE, AdminS=raffuchakkar654321@gmail.com, Admin123=shireen555, TC001_TD002=TC002_TD002, N=N}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="856" started-at="2020-11-16T06:44:33Z" data-provider="masterDP" finished-at="2020-11-16T06:44:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=chrome, AdminS=raffuchakkar654321@gmail.com, Admin123=shireen555, TC001_TD002=TD_001, N=Y}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="913" started-at="2020-11-16T06:44:33Z" data-provider="masterDP" finished-at="2020-11-16T06:44:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=browser, AdminS=username, Admin123=password, TC001_TD002=TestData_ID, N=Runmode}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="1016" started-at="2020-11-16T06:44:33Z" data-provider="masterDP" finished-at="2020-11-16T06:44:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=IE, AdminS=raffuchakkar654321@gmail.com, Admin123=shireen555, TC001_TD002=TD_002, N=N}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-16T06:44:33Z" finished-at="2020-11-16T06:44:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="366" started-at="2020-11-16T06:44:33Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="441" started-at="2020-11-16T06:44:33Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-16T06:44:33Z" finished-at="2020-11-16T06:44:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="856" started-at="2020-11-16T06:44:34Z" data-provider="masterDP" finished-at="2020-11-16T06:44:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=chrome, AdminS=raffuchakkar654321@gmail.com, Admin123=askjdfhjskfs, TC001_TD002=TD_003, N=N}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="561" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="490" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="477" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="TC001_TD001_BeforeMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001_BeforeMethod" is-config="true" duration-ms="322" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001_BeforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="551" started-at="2020-11-16T06:44:34Z" data-provider="masterDP" finished-at="2020-11-16T06:44:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=, AdminS=, Admin123=, TC001_TD002=TC_004, N=LoginTestSysAdmin}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="324" started-at="2020-11-16T06:44:34Z" data-provider="masterDP" finished-at="2020-11-16T06:44:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=chrome, AdminS=raffuchakkar654321@gmail.com, Admin123=askjdfhjskfs, TC001_TD002=TD_003, N=N}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="302" started-at="2020-11-16T06:44:34Z" data-provider="masterDP" finished-at="2020-11-16T06:44:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=IE, AdminS=raffuchakkar654321@gmail.com, Admin123=shireen555, TC001_TD002=TD_002, N=N}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="229" started-at="2020-11-16T06:44:34Z" data-provider="masterDP" finished-at="2020-11-16T06:44:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=chrome, AdminS=raffuchakkar654321@gmail.com, Admin123=shireen555, TC001_TD002=TD_001, N=Y}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="FAIL" signature="TC001_TD001(java.util.Hashtable)[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="TC001_TD001" duration-ms="214" started-at="2020-11-16T06:44:34Z" data-provider="masterDP" finished-at="2020-11-16T06:44:34Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{chrome=browser, AdminS=username, Admin123=password, TC001_TD002=TestData_ID, N=Runmode}]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.orangehrm.demo.utilities.DataUtil.checkExecution(DataUtil.java:29)
-at com.orangehrm.demo.testcases.TestSample.TC001_TD001(TestSample.java:27)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:71)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC001_TD001 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="25" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.orangehrm.demo.testcases.TestSample@6e06451e]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-11-16T06:44:34Z" finished-at="2020-11-16T06:44:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.orangehrm.demo.testcases.TestSample -->
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.orangehrm.demo.testcases.login.AutoITTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
