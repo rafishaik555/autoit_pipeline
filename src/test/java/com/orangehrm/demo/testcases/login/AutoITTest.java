@@ -43,7 +43,7 @@ public class AutoITTest extends LoginBase{
 		//To set SuiteOne.xls file's path In FilePath Variable.
 		FilePath = TestLoginSuite;
 		
-		TestCaseName = this.getClass().getSimpleName();
+		TestCaseName = "AutoITTest";
 		System.out.println("Test Case Name VALUE ..........."+TestCaseName);
 		//logInfo("Test Case Name VALUE .....BEFORE TEST SETUP......");
 		//ExtentListeners.testReport.get().info(TestCaseName);
