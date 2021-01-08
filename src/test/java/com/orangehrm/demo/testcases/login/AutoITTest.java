@@ -96,7 +96,7 @@ public class AutoITTest extends LoginBase{
 		
 		
 		
-		openBrowser(browser);
+		//openBrowser(browser);
 		ExtentListeners.testReport.get().info("Browser Type....."+browser);
 		
 		try {
